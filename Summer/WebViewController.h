@@ -8,6 +8,18 @@
 
 #import <UIKit/UIKit.h>
 
-@interface WebViewController : UIViewController
+@class WebViewController;
+
+@protocol WebViewControllerDelegate <NSObject>
+- (void)webViewControllerDidHitBack:(WebViewController *)controller;
+
+@end
+
+@interface WebViewController : UIViewController 
+
+@property (nonatomic, weak) IBOutlet UIWebView *blogWebView;
+@property (nonatomic, weak) id <WebViewControllerDelegate> delegate;
+
+- (IBAction)back:(id)sender;
 
 @end

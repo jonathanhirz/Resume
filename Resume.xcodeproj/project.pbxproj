@@ -15,22 +15,58 @@
 		AB02CA3914F5916100238F6A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB02CA3814F5916100238F6A /* AppDelegate.m */; };
 		AB02CA3C14F5916100238F6A /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB02CA3A14F5916100238F6A /* MainStoryboard.storyboard */; };
 		AB02CA3F14F5916100238F6A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB02CA3E14F5916100238F6A /* ViewController.m */; };
+		AB02CA5C14F7191600238F6A /* silver-apple-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = AB02CA5B14F7191600238F6A /* silver-apple-logo.png */; };
+		AB02CA5E14F71EDB00238F6A /* badgeBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = AB02CA5D14F71EDB00238F6A /* badgeBackground.png */; };
+		AB02CA6014F73B0500238F6A /* me.png in Resources */ = {isa = PBXBuildFile; fileRef = AB02CA5F14F73B0500238F6A /* me.png */; };
+		AB02CA6B14F74F8A00238F6A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = AB02CA6914F74F8A00238F6A /* Default.png */; };
+		AB02CA6C14F74F8A00238F6A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB02CA6A14F74F8A00238F6A /* Default@2x.png */; };
+		AB1FA3DF14FD572A00DFF6DE /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1FA3DE14FD572A00DFF6DE /* WebViewController.m */; };
+		AB1FA3E214FD90F100DFF6DE /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB1FA3E114FD90F100DFF6DE /* MessageUI.framework */; };
+		AB1FA3E414FD9B6C00DFF6DE /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB1FA3E314FD9B6C00DFF6DE /* Twitter.framework */; };
+		AB1FA3E614FD9BF000DFF6DE /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB1FA3E514FD9BF000DFF6DE /* Accounts.framework */; };
+		AB25F67914FDAEDE0038D3C3 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AB25F67714FDAEDE0038D3C3 /* Icon.png */; };
+		AB25F67A14FDAEDE0038D3C3 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB25F67814FDAEDE0038D3C3 /* Icon@2x.png */; };
+		AB4A9E8B14FDB2D1006B35BF /* twitterButton.png in Resources */ = {isa = PBXBuildFile; fileRef = AB4A9E8A14FDB2D1006B35BF /* twitterButton.png */; };
+		AB4A9E8E14FDB8E4006B35BF /* webButton.png in Resources */ = {isa = PBXBuildFile; fileRef = AB4A9E8D14FDB8E4006B35BF /* webButton.png */; };
+		AB4A9E9014FDC8D4006B35BF /* qbLaunch.png in Resources */ = {isa = PBXBuildFile; fileRef = AB4A9E8F14FDC8D4006B35BF /* qbLaunch.png */; };
+		AB68BCA514F9A54D008D861A /* behindText.png in Resources */ = {isa = PBXBuildFile; fileRef = AB68BCA414F9A54D008D861A /* behindText.png */; };
+		AB68BCA814F9B02B008D861A /* emailButton.png in Resources */ = {isa = PBXBuildFile; fileRef = AB68BCA714F9B02B008D861A /* emailButton.png */; };
+		AB68BCB514F9BBB8008D861A /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB68BCB414F9BBB8008D861A /* AboutViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AB02CA2414F5916100238F6A /* Summer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Summer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB02CA2414F5916100238F6A /* Resume.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Resume.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB02CA2814F5916100238F6A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		AB02CA2A14F5916100238F6A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AB02CA2C14F5916100238F6A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		AB02CA3014F5916100238F6A /* Summer-Info.plist */ = {isa = PBXFileReference; path = "Summer-Info.plist"; sourceTree = "<group>"; };
+		AB02CA3014F5916100238F6A /* Resume-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Resume-Info.plist"; sourceTree = "<group>"; };
 		AB02CA3214F5916100238F6A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AB02CA3414F5916100238F6A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		AB02CA3614F5916100238F6A /* Summer-Prefix.pch */ = {isa = PBXFileReference; path = "Summer-Prefix.pch"; sourceTree = "<group>"; };
-		AB02CA3714F5916100238F6A /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		AB02CA3614F5916100238F6A /* Resume-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Resume-Prefix.pch"; sourceTree = "<group>"; };
+		AB02CA3714F5916100238F6A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AB02CA3814F5916100238F6A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		AB02CA3B14F5916100238F6A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		AB02CA3D14F5916100238F6A /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		AB02CA3D14F5916100238F6A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		AB02CA3E14F5916100238F6A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AB02CA5B14F7191600238F6A /* silver-apple-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "silver-apple-logo.png"; sourceTree = "<group>"; };
+		AB02CA5D14F71EDB00238F6A /* badgeBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = badgeBackground.png; sourceTree = "<group>"; };
+		AB02CA5F14F73B0500238F6A /* me.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = me.png; sourceTree = "<group>"; };
+		AB02CA6914F74F8A00238F6A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		AB02CA6A14F74F8A00238F6A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		AB1FA3DD14FD572A00DFF6DE /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		AB1FA3DE14FD572A00DFF6DE /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		AB1FA3E114FD90F100DFF6DE /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		AB1FA3E314FD9B6C00DFF6DE /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		AB1FA3E514FD9BF000DFF6DE /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		AB25F67714FDAEDE0038D3C3 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		AB25F67814FDAEDE0038D3C3 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		AB4A9E8A14FDB2D1006B35BF /* twitterButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitterButton.png; sourceTree = "<group>"; };
+		AB4A9E8D14FDB8E4006B35BF /* webButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = webButton.png; sourceTree = "<group>"; };
+		AB4A9E8F14FDC8D4006B35BF /* qbLaunch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = qbLaunch.png; sourceTree = "<group>"; };
+		AB68BCA414F9A54D008D861A /* behindText.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = behindText.png; sourceTree = "<group>"; };
+		AB68BCA714F9B02B008D861A /* emailButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emailButton.png; sourceTree = "<group>"; };
+		AB68BCB314F9BBB8008D861A /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		AB68BCB414F9BBB8008D861A /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +74,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB1FA3E614FD9BF000DFF6DE /* Accounts.framework in Frameworks */,
+				AB1FA3E414FD9B6C00DFF6DE /* Twitter.framework in Frameworks */,
+				AB1FA3E214FD90F100DFF6DE /* MessageUI.framework in Frameworks */,
 				AB02CA2914F5916100238F6A /* UIKit.framework in Frameworks */,
 				AB02CA2B14F5916100238F6A /* Foundation.framework in Frameworks */,
 				AB02CA2D14F5916100238F6A /* CoreGraphics.framework in Frameworks */,
@@ -50,6 +89,10 @@
 		AB02CA1914F5916100238F6A = {
 			isa = PBXGroup;
 			children = (
+				AB02CA6914F74F8A00238F6A /* Default.png */,
+				AB02CA6A14F74F8A00238F6A /* Default@2x.png */,
+				AB25F67714FDAEDE0038D3C3 /* Icon.png */,
+				AB25F67814FDAEDE0038D3C3 /* Icon@2x.png */,
 				AB02CA2E14F5916100238F6A /* Summer */,
 				AB02CA2714F5916100238F6A /* Frameworks */,
 				AB02CA2514F5916100238F6A /* Products */,
@@ -59,7 +102,7 @@
 		AB02CA2514F5916100238F6A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AB02CA2414F5916100238F6A /* Summer.app */,
+				AB02CA2414F5916100238F6A /* Resume.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -67,6 +110,9 @@
 		AB02CA2714F5916100238F6A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AB1FA3E514FD9BF000DFF6DE /* Accounts.framework */,
+				AB1FA3E314FD9B6C00DFF6DE /* Twitter.framework */,
+				AB1FA3E114FD90F100DFF6DE /* MessageUI.framework */,
 				AB02CA2814F5916100238F6A /* UIKit.framework */,
 				AB02CA2A14F5916100238F6A /* Foundation.framework */,
 				AB02CA2C14F5916100238F6A /* CoreGraphics.framework */,
@@ -82,6 +128,11 @@
 				AB02CA3A14F5916100238F6A /* MainStoryboard.storyboard */,
 				AB02CA3D14F5916100238F6A /* ViewController.h */,
 				AB02CA3E14F5916100238F6A /* ViewController.m */,
+				AB68BCB314F9BBB8008D861A /* AboutViewController.h */,
+				AB68BCB414F9BBB8008D861A /* AboutViewController.m */,
+				AB1FA3DD14FD572A00DFF6DE /* WebViewController.h */,
+				AB1FA3DE14FD572A00DFF6DE /* WebViewController.m */,
+				AB02CA4D14F59D1200238F6A /* Resources */,
 				AB02CA2F14F5916100238F6A /* Supporting Files */,
 			);
 			path = Summer;
@@ -90,20 +141,35 @@
 		AB02CA2F14F5916100238F6A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				AB02CA3014F5916100238F6A /* Summer-Info.plist */,
+				AB02CA3014F5916100238F6A /* Resume-Info.plist */,
 				AB02CA3114F5916100238F6A /* InfoPlist.strings */,
 				AB02CA3414F5916100238F6A /* main.m */,
-				AB02CA3614F5916100238F6A /* Summer-Prefix.pch */,
+				AB02CA3614F5916100238F6A /* Resume-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AB02CA4D14F59D1200238F6A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AB02CA5F14F73B0500238F6A /* me.png */,
+				AB02CA5D14F71EDB00238F6A /* badgeBackground.png */,
+				AB02CA5B14F7191600238F6A /* silver-apple-logo.png */,
+				AB68BCA414F9A54D008D861A /* behindText.png */,
+				AB68BCA714F9B02B008D861A /* emailButton.png */,
+				AB4A9E8A14FDB2D1006B35BF /* twitterButton.png */,
+				AB4A9E8D14FDB8E4006B35BF /* webButton.png */,
+				AB4A9E8F14FDC8D4006B35BF /* qbLaunch.png */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AB02CA2314F5916100238F6A /* Summer */ = {
+		AB02CA2314F5916100238F6A /* Resume */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AB02CA4214F5916100238F6A /* Build configuration list for PBXNativeTarget "Summer" */;
+			buildConfigurationList = AB02CA4214F5916100238F6A /* Build configuration list for PBXNativeTarget "Resume" */;
 			buildPhases = (
 				AB02CA2014F5916100238F6A /* Sources */,
 				AB02CA2114F5916100238F6A /* Frameworks */,
@@ -113,9 +179,9 @@
 			);
 			dependencies = (
 			);
-			name = Summer;
+			name = Resume;
 			productName = Summer;
-			productReference = AB02CA2414F5916100238F6A /* Summer.app */;
+			productReference = AB02CA2414F5916100238F6A /* Resume.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -127,7 +193,7 @@
 				LastUpgradeCheck = 0430;
 				ORGANIZATIONNAME = SuaveApps;
 			};
-			buildConfigurationList = AB02CA1E14F5916100238F6A /* Build configuration list for PBXProject "Summer" */;
+			buildConfigurationList = AB02CA1E14F5916100238F6A /* Build configuration list for PBXProject "Resume" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -139,7 +205,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AB02CA2314F5916100238F6A /* Summer */,
+				AB02CA2314F5916100238F6A /* Resume */,
 			);
 		};
 /* End PBXProject section */
@@ -151,6 +217,18 @@
 			files = (
 				AB02CA3314F5916100238F6A /* InfoPlist.strings in Resources */,
 				AB02CA3C14F5916100238F6A /* MainStoryboard.storyboard in Resources */,
+				AB02CA5C14F7191600238F6A /* silver-apple-logo.png in Resources */,
+				AB02CA5E14F71EDB00238F6A /* badgeBackground.png in Resources */,
+				AB02CA6014F73B0500238F6A /* me.png in Resources */,
+				AB02CA6B14F74F8A00238F6A /* Default.png in Resources */,
+				AB02CA6C14F74F8A00238F6A /* Default@2x.png in Resources */,
+				AB68BCA514F9A54D008D861A /* behindText.png in Resources */,
+				AB68BCA814F9B02B008D861A /* emailButton.png in Resources */,
+				AB25F67914FDAEDE0038D3C3 /* Icon.png in Resources */,
+				AB25F67A14FDAEDE0038D3C3 /* Icon@2x.png in Resources */,
+				AB4A9E8B14FDB2D1006B35BF /* twitterButton.png in Resources */,
+				AB4A9E8E14FDB8E4006B35BF /* webButton.png in Resources */,
+				AB4A9E9014FDC8D4006B35BF /* qbLaunch.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +242,8 @@
 				AB02CA3514F5916100238F6A /* main.m in Sources */,
 				AB02CA3914F5916100238F6A /* AppDelegate.m in Sources */,
 				AB02CA3F14F5916100238F6A /* ViewController.m in Sources */,
+				AB68BCB514F9BBB8008D861A /* AboutViewController.m in Sources */,
+				AB1FA3DF14FD572A00DFF6DE /* WebViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,9 +318,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Summer/Summer-Prefix.pch";
-				INFOPLIST_FILE = "Summer/Summer-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Summer/Resume-Prefix.pch";
+				INFOPLIST_FILE = "Summer/Resume-Info.plist";
+				PRODUCT_NAME = Resume;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -249,9 +329,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Summer/Summer-Prefix.pch";
-				INFOPLIST_FILE = "Summer/Summer-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Summer/Resume-Prefix.pch";
+				INFOPLIST_FILE = "Summer/Resume-Info.plist";
+				PRODUCT_NAME = Resume;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -259,7 +339,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AB02CA1E14F5916100238F6A /* Build configuration list for PBXProject "Summer" */ = {
+		AB02CA1E14F5916100238F6A /* Build configuration list for PBXProject "Resume" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AB02CA4014F5916100238F6A /* Debug */,
@@ -268,13 +348,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AB02CA4214F5916100238F6A /* Build configuration list for PBXNativeTarget "Summer" */ = {
+		AB02CA4214F5916100238F6A /* Build configuration list for PBXNativeTarget "Resume" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AB02CA4314F5916100238F6A /* Debug */,
 				AB02CA4414F5916100238F6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

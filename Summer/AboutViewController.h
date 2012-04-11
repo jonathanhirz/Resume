@@ -7,7 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "WebViewController.h"
 
-@interface AboutViewController : UIViewController
+@interface AboutViewController : UIViewController <WebViewControllerDelegate>
+
+- (IBAction)linkToQuadrobounce:(id)sender;
+- (IBAction)linkToEmail:(id)sender;
+- (IBAction)linkToTwitter:(id)sender;
+- (IBAction)linkToWeb:(id)sender;
+
 
 @end
