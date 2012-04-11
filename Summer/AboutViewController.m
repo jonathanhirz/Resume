@@ -7,7 +7,7 @@
 //
 //  Icon Copyrights: Email and Homepage icon - ipapun http://ipapun.deviantart.com/
 //                   Twitter icon - brsev http://brsev.deviantart.com/
-// testing
+// testing 1,2,3
 
 #import "AboutViewController.h"
 #import <MessageUI/MessageUI.h>
