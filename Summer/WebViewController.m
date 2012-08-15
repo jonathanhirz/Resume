@@ -38,7 +38,7 @@
 {
     [super viewDidLoad];
     blogWebView.delegate = (id)self;
-    [blogWebView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://suaveapps.tumblr.com"]]];
+    [blogWebView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://jonathanhirz.com"]]];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

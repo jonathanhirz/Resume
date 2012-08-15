@@ -56,7 +56,7 @@
     //link to quadrobounce page in the app store. 
     //maybe add a popup that says you'll be leaving this app
     NSLog(@"link to quadrobounce");
-    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://itunes.apple.com/us/app/quadrobounce!/id456018898?mt=8"]];
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://github.com/jonathanhirz"]];
 }
 
 - (IBAction)linkToEmail:(id)sender {
